@@ -1,0 +1,106 @@
+html {
+   /* background-color: #fa923f;*/
+    padding: 10px;
+}
+
+body {
+    font-family: "Arial",Helvetica,"Helvetica Neue",sans-serif;
+    color: #777;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    background: #777;
+    /*Width is part of homework requirements, but it causes the components
+      not to resize with the page*/
+    width: 960px; 
+    padding: 10px;
+    margin: auto;
+   }
+
+.content{
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    background-color:#ebebeb;
+    height: 100px;
+    margin: 10px;
+}
+
+h1, h2{
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    line-height: 100px;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+    background: #ebebeb;
+    color:#777;
+}
+
+nav {
+    background-color: #ebebeb;
+    margin: 10px;    
+}
+
+.navigationBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+/* Button for the navigation panel*/
+
+button {
+    flex: 1 auto;
+    margin: 10px;
+    line-height: 2.5;
+}
+
+/* Main content section */
+
+
+section{
+    flex: 1 300px;
+    float: left;
+    background:#ebebeb;
+    margin: 2px 10px 2px 10px;
+    width: 495px;
+}
+
+article{
+    flex: 1 200px;
+    background-color: #ebebeb;
+    color: #777
+    margin: 5px 10px 5px 10px;
+}
+
+
+aside{
+    flex: 1 100px;
+    float: right;
+    align-content: center;
+    background-color: #ebebeb;
+    margin: 5px 10px 0px 10px;
+    width: 495px;
+}
+
+.mainPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+
+footer {
+    background-color:#ebebeb; 
+    margin: 10px;
+    height: 100px;
+}
